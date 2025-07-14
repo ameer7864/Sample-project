@@ -915,7 +915,7 @@
         font-size: 13px;
     }
     .online{
-        font-size:0.75rem;
+        font-size:0.8rem;
         margin-left: 8px;
     }
     .tab{
@@ -949,16 +949,19 @@
     }
     .guide{
         cursor: pointer;
-        font-size: 0.75rem;
+        font-size: 0.8rem;
         font-weight: 500;
         line-height: 28px;
     }
     .guide:hover{
         color:#ff7012;
-        transition: 0.9s;
+        transition: 0.5s;
     }
     .company{
         margin-left:0 ;
+    }
+    .company>.menu-item{
+        font-size: 0.8rem;
     }
     .menu-item{
         font-size: 0.9rem;
@@ -970,7 +973,7 @@
     }
     .menu-item:hover{
         color: #ff7012;
-        transition: 1s;
+        transition: 0.5s;
     }
     .footer-ruler{
         border-bottom: 1.2px solid #ddd;
@@ -1279,7 +1282,7 @@
             margin-left: 7%;
         }
         .company>.menu-item{
-            font-size: 0.75rem;
+            font-size: 0.8rem;
         }
         .footer-ruler{
             margin-left: 1%;
