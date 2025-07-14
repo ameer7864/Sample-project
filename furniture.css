@@ -137,7 +137,8 @@
         gap: 30px;
         padding: 60px;
         align-items: center;
-        opacity: 0;
+        /* opacity: 0; */
+        display: none;
         transition: 1s;
         top: 100%;
         margin: 0;
@@ -155,7 +156,8 @@
     }
 
     .menu>#menu:checked~.menu-content {
-        opacity: 1;
+        /* opacity: 1; */
+        display: block;
     }
 
     .menu>#menu:checked~.toggle>ion-icon {
@@ -708,15 +710,17 @@
         padding-top: 1%;
     }
     .main6{
-        width: 45%;
+        width: 46%;
         margin-left: 10%;
     }
     .location{
-        font-size: 30px;
-        font-weight: 500;
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 1%;
     }
     .main6>.para4{
-        font-size: 16px;
+        width: 75%;
+        font-size: 14px;
         font-weight: 400;
         line-height: 30px;
         color: #686868;;
